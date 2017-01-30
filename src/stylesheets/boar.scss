@@ -70,7 +70,8 @@ img {
 
 p {
 	line-height: 1.6;
-	margin: 1em 0;
+	margin: 1em auto;
+	max-width: 30em;
 }
 
 // layout
@@ -81,28 +82,12 @@ header {
 	flex-direction: column;
 
 	img {
-		background: $primary;
-		border-radius: 100%;
-		height: 12vh;
-		padding: 3vh;
+		height: 8vh;
 	}
 
 	h1 {
-		margin: 1rem 0;
+		margin: 1em 0 1rem;
 		position: relative;
-
-		&:after {
-			background: $colorLight;
-			border-radius: 0.25em;
-			content: 'beta';
-			color: $background;
-			left: calc(100% + 0.5em);
-			font-size: 0.25em;
-			font-weight: 500;
-			padding: 0.25em;
-			top: -0.25em;
-			position: absolute;
-		}
 	}
 
 	h2 {
@@ -154,13 +139,13 @@ section {
 				cursor: default;
 
 				&:before {
-					background-image: url('../img/app-store.png');
+					background-image: url('/assets/img/app-store.png');
 				}
 			}
 
 			&.google-play {
 				&:before {
-					background-image: url('../img/google-play.png');
+					background-image: url('/assets/img/google-play.png');
 				}
 			}
 		}
@@ -171,7 +156,7 @@ section {
 		border-radius: 2.25em;
 		display: flex;
 		flex-direction: column;
-		max-width: 25em;
+		max-width: 24em;
 		padding: 0 1em;
 
 		&:before {
@@ -214,15 +199,15 @@ footer {
 			}
 
 			&.dribbble {
-				background-image: url('../img/dribbble.svg');
+				background-image: url('/assets/img/dribbble.svg');
 			}
 
 			&.github {
-				background-image: url('../img/github.svg');
+				background-image: url('/assets/img/github.svg');
 			}
 
 			&.twitter {
-				background-image: url('../img/twitter.svg');
+				background-image: url('/assets/img/twitter.svg');
 			}
 		}
 	}
