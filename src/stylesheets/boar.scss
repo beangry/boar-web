@@ -142,6 +142,33 @@ section {
 			}
 		}
 	}
+
+	figure {
+		background: $primary;
+		border-radius: 2.25em;
+		display: flex;
+		flex-direction: column;
+		max-width: 24em;
+		padding: 0 1em;
+
+		&:before {
+			background: lighten($primary, 4%);
+			border-radius: 0.25em;
+			content: '';
+			height: 0.5em;
+			margin: 2em auto;
+			width: 4em;
+		}
+
+		&:after {
+			background: lighten($primary, 4%);
+			border-radius: 100%;
+			content: '';
+			height: 3em;
+			margin: 1em auto;
+			width: 3em;
+		}
+	}
 }
 
 footer {
