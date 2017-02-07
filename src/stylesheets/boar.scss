@@ -127,9 +127,6 @@ section {
 			}
 
 			&.app-store {
-				background: $colorLight;
-				cursor: default;
-
 				&:before {
 					background-image: url('/assets/img/store/app-store.png');
 				}
