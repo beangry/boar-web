@@ -37,9 +37,7 @@ a {
 
 h1,
 h2,
-h3,
-h4 {
-	color: $primary;
+h3 {
 	font-weight: 300;
 }
 
@@ -54,12 +52,6 @@ h2 {
 h3 {
 	font-size: 1em;
 	font-weight: normal;
-}
-
-h4 {
-	color: $primary;
-	font-size: 1em;
-	font-weight: 500;
 }
 
 img {
@@ -139,42 +131,15 @@ section {
 				cursor: default;
 
 				&:before {
-					background-image: url('/assets/img/app-store.png');
+					background-image: url('/assets/img/store/app-store.png');
 				}
 			}
 
 			&.google-play {
 				&:before {
-					background-image: url('/assets/img/google-play.png');
+					background-image: url('/assets/img/store/google-play.png');
 				}
 			}
-		}
-	}
-
-	figure {
-		background: $primary;
-		border-radius: 2.25em;
-		display: flex;
-		flex-direction: column;
-		max-width: 24em;
-		padding: 0 1em;
-
-		&:before {
-			background: lighten($primary, 4%);
-			border-radius: 0.25em;
-			content: '';
-			height: 0.5em;
-			margin: 2em auto;
-			width: 4em;
-		}
-
-		&:after {
-			background: lighten($primary, 4%);
-			border-radius: 100%;
-			content: '';
-			height: 3em;
-			margin: 1em auto;
-			width: 3em;
 		}
 	}
 }
@@ -199,15 +164,15 @@ footer {
 			}
 
 			&.dribbble {
-				background-image: url('/assets/img/dribbble.svg');
+				background-image: url('/assets/img/social/dribbble.svg');
 			}
 
 			&.github {
-				background-image: url('/assets/img/github.svg');
+				background-image: url('/assets/img/social/github.svg');
 			}
 
 			&.twitter {
-				background-image: url('/assets/img/twitter.svg');
+				background-image: url('/assets/img/social/twitter.svg');
 			}
 		}
 	}
