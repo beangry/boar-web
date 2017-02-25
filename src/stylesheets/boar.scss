@@ -170,6 +170,9 @@ section {
 
 footer {
 	aside {
+		display: flex;
+		justify-content: center;
+
 		a {
 			background-position: center;
 			background-repeat: no-repeat;
@@ -185,6 +188,10 @@ footer {
 
 			&:not(:first-child) {
 				margin-left: 1em;
+			}
+
+			&.product-hunt {
+				background-image: url('/assets/img/social/product-hunt.svg');
 			}
 
 			&.dribbble {
