@@ -1,12 +1,15 @@
 {
-  "name": "boar-web",
+  "name": "web",
   "version": "1.0.6",
   "description": "Boar - be angry",
   "homepage": "https://beangry.co",
   "author": "Ali Zahid <ali.zahid@live.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alizahid/boar-web.git"
+    "url": "git+https://github.com/beangry/web.git"
+  },
+  "scripts": {
+    "start": "gulp"
   },
   "license": "MIT",
   "devDependencies": {
